@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  text-align: center;
+}
+.logo {
+  max-width: 120px;
+}
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat-box {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ff88;
+  text-align: center;
+}
+.placeholder {
+  margin-top: 1rem;
+  color: #aaa;
+}
+footer {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
